@@ -1,0 +1,32 @@
+<ion-view view-title="Full Stack" name="dashboard-view">
+  <ion-nav-buttons side="right">
+    <button class="button icon-left ion-log-out button-stable" ng-click="logout()">Logout</button>
+  </ion-nav-buttons>
+
+  <ion-content class="padding">
+    <div class="row"><div class="col text-center">
+      <h3 class="title">Welcome {{username}}!</h3>
+      This is all about Web & Internet Programming.
+      <br><br><br>
+	
+	<a href = "HTML.html" class="button button-full button-positive"> 
+	<button class="button button-full button-positive">
+  		HTML
+	</button>
+	</a>
+      <a href = "CSS.html"class="button button-full button-energized">
+      <button class="button button-full button-energized" >
+        CSS
+      </button>
+</a>
+
+	<a href = "JavaScript.html"class="button button-full button-assertive">
+      <button class="button button-full button-assertive" >
+        Java Script
+      </button>
+</a>
+      <br><br>
+      {{response}}
+    </div></div>
+  </ion-content>
+</ion-view>
